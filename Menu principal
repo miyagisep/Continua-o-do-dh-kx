@@ -2729,6 +2729,9 @@ end)
 
 print("KraviX Loaded Successfully!")
 
+ThemeManager:SetLibrary(Library)
+ThemeManager:ApplyToTab(Tabs.UI)
+
 
 local MenuGroup = Tabs.UI:AddLeftGroupbox('Menu')
 MenuGroup:AddLabel('Menu bind'):AddKeyPicker('MenuKeybind',{Default='Insert',NoUI=true,Text='Menu keybind'})

@@ -2730,6 +2730,7 @@ end)
 print("KraviX Loaded Successfully!")
 
 ThemeManager:SetLibrary(Library)
+ThemeManager:SetFolder('KraviX')
 ThemeManager:ApplyToTab(Tabs.UI)
 
 
